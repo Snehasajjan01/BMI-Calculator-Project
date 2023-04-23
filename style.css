@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    margin: 5%;
+    width: 40vw;
+    height: 75vh;
+    box-shadow: 3px 3px 5px 10px #2a2f4f60;
+}
+
+@media only screen and (max-width:800px){
+    .container{
+        width: 70vw;
+    }
+}
+#resultArea{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+#resultArea p{
+    margin-top: -10px;
+}
+.headerText{
+    display: flex;
+    justify-content: center;
+    color: #2A2F4F;
+}
+.inputArea{
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 10%;
+    padding:10%;
+}
+
+#weightInput, #heightInput{
+    padding: 2%;
+    width: 95%;
+}
+#btnSubmit{
+    background-color: #917FB3;
+}
+
+#btnSubmit, #btnReload{
+    border-radius: 5px;;
+}
